@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react'
 import { Input, Button, Space, Select, Form } from 'antd'
 import { PERFORMACE_MAP, SUBJECTS } from '../config/contants'
-import { IForm, IStudent } from '../pages/interfaces'
+import { IForm, IStudent } from '../interfaces'
 
 type Props = {
     onFinish: (form: IForm) => void
