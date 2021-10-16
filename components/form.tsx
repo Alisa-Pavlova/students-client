@@ -57,7 +57,7 @@ const FormComponent: FunctionComponent<Props> = ({ onFinish, onClear, search, bu
             </Form.Item>
           </Space>
           <Button style={{marginLeft: '10px'}} type="primary" htmlType="submit">{buttonText}</Button>
-          <Button style={{marginLeft: '10px'}} type="primary" onClick={onClear}>Clear</Button>
+          {!student && <Button style={{marginLeft: '10px'}} type="primary" onClick={onClear}>Clear</Button>}
         </Form>
   )
 }
