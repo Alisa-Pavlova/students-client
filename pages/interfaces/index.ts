@@ -21,4 +21,5 @@ export interface IStudent {
     surname?: string
     performance?: number
     birth?: Date
+    subjects?: string[]
   }
