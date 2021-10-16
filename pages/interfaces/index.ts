@@ -14,3 +14,11 @@ export interface IStudent {
     rows: IStudent[]
     count: number
   }
+
+  export interface IForm {
+    name?: string
+    second_name?: string
+    surname?: string
+    performance?: number
+    birth?: Date
+  }
